@@ -1,10 +1,14 @@
-line01 = "************************"
-line02 = "*                      *"
-line03 = "*        WELCOME!      *"
+# how to take variables
 
-print('')
-print(line01)
-print(line02)
-print(line03)
-print(line02)
-print(line01)
+# integer,float
+x=4
+y=5
+print(x + y)
+print(x / y)
+z = x - y
+print(z)
+# text type
+name ="Pranavi"
+Name ="Lavanya"
+#how to print single character - use index
+print(name[0])
