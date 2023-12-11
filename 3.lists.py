@@ -4,7 +4,7 @@ nums = [3,5,6,7,14]
 print(nums)
 print(nums[3])
 
-#add multiple data types -->use append -->it takes only single argument at a time
+# add multiple data types -->use append -->it takes only single argument at a time
 nums.append(14.4)
 nums.append(True)
 nums.append("Pranavi")
@@ -24,11 +24,11 @@ del fruits[3]
 fruits.clear()  #to clear all list
 print(fruits)
 
-#Sorting
+# Sorting
 names = ['abhi','anil','chitra',"pranavi",'potti',"pavan","Sujith","Nishanth","Lavanya"]
 names[6:9]=['sujith','nishanth','lavanya']  #change capital to small
 names.sort()  #->it takes capital letter first
-#names.reverse()  #reverse order
+# names.reverse()  #reverse order
 names.sort(reverse = True)  #Descending Order
 
 print(names)
