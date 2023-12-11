@@ -1,3 +1,4 @@
+# create multiple data types
 # Create List
 nums = [3,5,6,7,14]
 print(nums)
@@ -36,3 +37,8 @@ print(names)
 n = [47,7,4,11,14,24,2,25,65,76,54]
 n.sort(reverse= True)
 print(n)
+
+# Find Minimum And Maximum
+p =[34,64,14,11,25,2,7,4,10,27,23,28]
+print(min(p))
+print(max(p))
