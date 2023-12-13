@@ -9,3 +9,8 @@ set = {"Pranavi",4,True,"Pavan",4}  # Don't allow duplicate values
 print(set)
 print(len(set))
 print(len(n))
+
+        # Dictionary
+person = {"name":"Pranavi","age":21,"mobile":'741411'}
+print(person['name'])         # How to cal values
+print(person)
