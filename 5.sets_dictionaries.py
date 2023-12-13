@@ -31,3 +31,6 @@ print(person1)
 p ={"name":"Pranavi","Hero":"Ram"}
 p.clear() # no delete but do empty
 print(p)
+
+print(person.keys())   # Only keys will be print
+print(person.values())  # Only values
