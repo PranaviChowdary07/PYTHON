@@ -34,3 +34,7 @@ print(p)
 
 print(person.keys())   # Only keys will be print
 print(person.values())  # Only values
+   # Check key in dictionary or not 
+if "age" in person :
+    print("yes")
+    
