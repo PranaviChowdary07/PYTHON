@@ -7,3 +7,5 @@ while a < 10:
         print("a value is 3 is now")
         continue
     print(a,"Learning Python")
+
+# For Loop
