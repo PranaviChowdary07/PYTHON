@@ -23,6 +23,8 @@ for p in range (1,100,10):   # add value to p
 name = ['Pranavi','Sujith','Pavan','Potti','Lavanya','Nishanth']    # print list,tuple,set
 for i in name:
     print(i)
+else:
+    print("Bye!")
 
 # print characters
 name = "Pranavi"
