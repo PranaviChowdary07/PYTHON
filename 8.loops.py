@@ -24,7 +24,7 @@ name = ['Pranavi','Sujith','Pavan','Potti','Lavanya','Nishanth']    # print list
 for i in name:
     print(i)
 else:
-    print("Bye!")
+    print("Bye!!")
 
 # print characters
 name = "Pranavi"
@@ -36,7 +36,7 @@ for i in name:
 people =  ['Pranavi','Sujith','Pavan','Potti','Lavanya','Nishanth']
 for i in people:
   
-    if i == "Pavan":
+    if i == "Potti":
         #break
           continue
     print(i)
