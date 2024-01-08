@@ -22,10 +22,10 @@ name(age=24,name='pranavi')   # -->actual arguments
 
 # multiple arguments
 
-def add(n1,n2):    # Know the how many values
+""" def add(n1,n2):    # Know the how many values
     result = n1 + n2
     print('Result:',result)
-add(46,98)      
+add(46,98)  """     
 
 # Don't know how many values
 def getSum(*s):
@@ -36,7 +36,7 @@ def getSum(*s):
     print(s[3])             # which value to print in given list
 getSum(1,4,5,76,34)
 
-# return 
+# return  ->take values from function
 def sum(*nums):
     result = 0
     for x in nums:
