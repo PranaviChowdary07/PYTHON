@@ -18,7 +18,7 @@ def name(name,age,country='India'):     # -->formal arguments
     print("hii",name)
     print("Age:",age)
     print("I am from",country)
-name(age=24,name='pranavi')   # -->actual arguments
+name(age=23,name='pranavi')   # -->actual arguments
 
 # multiple arguments
 
