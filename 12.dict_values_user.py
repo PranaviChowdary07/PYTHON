@@ -1,5 +1,5 @@
 # Getting  keys & values from user
-def printPerson(data):
+def printperson(data):
     hkl = 0
     for kl, vl in data.items():
         if hkl < len(kl):
@@ -23,6 +23,6 @@ while e != '0':
     userdata[userkey] = uservalue
     e = input("Enter 0 to end or any key to continue adding.....")
     
-printPerson(userdata)
+printperson(userdata)
     
     
