@@ -1,6 +1,6 @@
 # Local scope --> uses only particular  local function 
 def greet():
-    x = 'Hii'
+    x = 'Hello'
      #print(x)
     return x
     """  def say():    #but it uses many local functions

@@ -14,7 +14,7 @@
           from calculator import add/sub/multi/div    --> for sinlge
             from calculator import  *                    --> for many    
 
-        x = 5
+        x = 6
         y = 4
         z = add(x,y)    
         
