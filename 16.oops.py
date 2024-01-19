@@ -24,7 +24,7 @@ class VivoMobile:
     def info(self):
         print(self.model,self.ram,self.rom,self.color)
         print(' ')
-mob1 = VivoMobile('x12','12GB','8GB','Blue')
+mob1 = VivoMobile('X12','12GB','8GB','Blue')
 mob1.info()
 
 mob2 = VivoMobile('Z13','64Gb','16GB','Red')
