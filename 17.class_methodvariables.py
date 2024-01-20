@@ -34,8 +34,11 @@ print(bike2.name,bike2.year,bike2.color,Bike.tyres)
       --> get method
       --> set method
    2.Class Methods
-
+     - To call class variables
+     - It has one decorator -->@classmethod
    3.Static method
+     -- It takes non related function but it needs .
+     -- @staticmethod -->decorator
  """
 class Student :
     school = 'SSVHS'
@@ -66,18 +69,35 @@ class Student :
 
     def set_m3(self,value):
         self.marks3 = value
-    
-    
+
+
+        # Class Methods
+    @classmethod
+    def get_school(cls):
+        return cls.school
         
+        # Static Method
+    @staticmethod
+    def sayhello():
+        print("Hello Student")
+
+print("School Name : ",Student.get_school())
+
+Student.sayhello()
 
 S1 = Student()
 S2 = Student() 
 
-
 S1.set_m1(98)
-print(S1.get_m1())
+S1.set_m2(95)
+S1.set_m3(89)
+print("Student 1 Marks :")
+print(S1.get_m1(),S1.get_m2(),S1.get_m3())
 
-S2.set_m1(96)
-print(S2.get_m1())
+S2.set_m1(75)
+S2.set_m2(70)
+S2.set_m3(68)
+print("Student 2 Marks :")
+print(S2.get_m1(),S2.get_m2(),S2.get_m3())
 
 
