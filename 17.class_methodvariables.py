@@ -1,3 +1,4 @@
+                    # Type of Variables in Class
 """ 
  Class Variables are two types :-
     1.Class or Static 
@@ -26,3 +27,22 @@ bike2.name = 'Bullet'
 bike2.year = '2000'
 bike2.color = 'Green'
 print(bike2.name,bike2.year,bike2.color,Bike.tyres)
+
+                      #  Types of Methods in Class
+""" 
+   1.Instance Methods
+
+   2.Class Methods
+
+   3.Static method
+ """
+class Student :
+    school = 'SSVHS'
+    def __init__(self):
+        self.marks1 = 'Marks 1'
+        self.marks2 = 'Marks 2'
+        self.marks3 = 'Marks 3'
+
+S1 = Student()
+S2 = Student() 
+
