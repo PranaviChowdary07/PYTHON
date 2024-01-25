@@ -117,13 +117,13 @@ cat.speak()
 class Vehicle:
     def start(self):
         print("Vehicle Starts....")
-class ElectricVehicle(Vehicle):
+class ElectricVehicle(Vehicle):       # Single
     def charge(self):
         print("Charging......")
-class Car(Vehicle):
+class Car(Vehicle):               # Hierchical 
     def drive(self):
         print("Drives the car")
-class HybridCar(Car,ElectricVehicle):
+class HybridCar(Car,ElectricVehicle):   # Multiple
     def fuel(self):
         print("Starting with a combination of fuel & electric")
 
