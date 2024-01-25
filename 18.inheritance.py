@@ -17,3 +17,19 @@ class B(A):  # Child Class or Derived Class
 
 obj = A()
 print(obj.x)
+
+
+# Single Inheritance
+
+class Parent:
+
+    def fun1(self):
+        print("Parent")
+
+class Child(Parent):
+    def fun2(self):
+        print("Child")
+
+obj = Child()
+obj.fun1() # --> O/P = Parent
+obj.fun2() # -- > O/P = Child
