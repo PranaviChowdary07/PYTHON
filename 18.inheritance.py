@@ -92,3 +92,43 @@ fruits = Orange()
 fruits.func1()
 fruits.func2()
 fruits.func3()
+
+# Hierarchical Inheritance
+class Animal:
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        print("Woof")
+
+class Cat(Animal):
+    def speak(self):
+        print("Meaow")
+
+dog = Dog()
+dog.speak()
+
+cat = Cat()
+cat.speak()
+
+# Hybrid Inheritance
+ 
+class Vehicle:
+    def start(self):
+        print("Vehicle Starts....")
+class ElectricVehicle(Vehicle):
+    def charge(self):
+        print("Charging......")
+class Car(Vehicle):
+    def drive(self):
+        print("Drives the car")
+class HybridCar(Car,ElectricVehicle):
+    def fuel(self):
+        print("Starting with a combination of fuel & electric")
+
+hybridCar = HybridCar()
+hybridCar.charge()
+hybridCar.drive()
+hybridCar.fuel()
+hybridCar.start()
