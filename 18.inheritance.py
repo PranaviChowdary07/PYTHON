@@ -7,6 +7,21 @@ Inheritance :- class methods and properties used in another class .
            - One parent class,one child class
         2.Multiple Inheritance
            - Multiple parent classes ,child class(accept multiple parent class)
+           - One sub class having multiple parents
+        3.Multi-level Inheritance
+          - Parent class
+          - Intermediate class
+          - derived class
+          - A -> B -> C
+        4.Hierarchical Inheritance
+          - One parent multiple subclasses
+          - Ex:-
+          A-->parent class
+          B(A)
+          C(A)
+          D(A)
+        5.Hybrid Inheritance
+          - Combination of atleast two inheritance types
 
  """
 
@@ -58,3 +73,22 @@ obj.father_name = "Arjun"
 obj.mother_name = "Sneha"
 obj.son_name = "Ayan"
 obj.shownames()
+
+# Multi-level Inheritance
+
+class Mango:
+    def func1(self):
+        print("From Mango")
+
+class Apple(Mango):
+    def func2(self):
+        print("From Apple")
+
+class Orange(Apple):
+    def func3(self):
+        print("From Orange")
+
+fruits = Orange()
+fruits.func1()
+fruits.func2()
+fruits.func3()
