@@ -32,4 +32,4 @@ class Child(Parent):
 
 obj = Child()
 obj.fun1() # --> O/P = Parent
-obj.fun2() # -- > O/P = Child
+obj.fun2() # --> O/P = Child
