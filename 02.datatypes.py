@@ -7,6 +7,12 @@
         -string = order sequence of characters --> "hello","Pranavi","400","75%"
 
         -bool = Logical values --> True/False
+           Ex:- print(10 == 45)
+                print(10<45)
+       if  10<45:
+         print("True")
+       else:
+          print("False")
 
 
  """
@@ -24,3 +30,8 @@
 
 
  """
+a = 23                  # except zero remaining all numbers true
+b = 'Pranavi'           # only empty str it will be false without spaces
+c = ['a','b','c']       # list,set,dict are empty it will be false W/O spaces
+d = []
+print(bool(d))
