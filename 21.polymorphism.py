@@ -7,6 +7,7 @@
 
   Types:
   - Duck Typing:- It comes from one phrase i.e "If it looks like a duck & quacks like a duck.It's a duck"
+  -- similar methods to do duck typing
     """ 
 class Duck:
     def sound(self):
@@ -26,3 +27,32 @@ def anysound(obj):
 X = Cat()
 Y = Dog()
 anysound(X)
+
+# Example :- 2
+
+class India:
+    def capital(self):
+        print("New Delhi")
+
+    def lang(self):
+        print("Hindi")
+
+class USA:
+    def capital(self):
+        print("Washington, D.C.")
+    def lang(self):
+        print("English")
+
+def caplan(obj):
+    obj.capital()
+    obj.lang()
+
+a = USA()
+caplan(a)
+
+
+
+
+
+
+
