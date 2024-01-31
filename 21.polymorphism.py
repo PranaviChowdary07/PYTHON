@@ -7,7 +7,9 @@
 
   Types:
   - Duck Typing:- It comes from one phrase i.e "If it looks like a duck & quacks like a duck.It's a duck"
-  -- similar methods to do duck typing
+    -- similar methods to do duck typing
+  -Overloading
+  -Method Overriding
     """ 
 class Duck:
     def sound(self):
