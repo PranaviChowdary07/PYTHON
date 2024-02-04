@@ -41,3 +41,11 @@ Two types:
     * Arrays *
 Def :- Arrays in Py are DS that can hold multiple values of the same type.
 * It is linear datastructure
+* Array supports one dimension array
+ Ex: import array  as arr
+ a = arr.array('d',[4.5,6.7])
+ print(a)
+* Numpy supports multi dimension
+ Ex: import numpy as np
+  a = np.array([[2,4,5,6],[4,7,45,24],[4,12,14,7,11,23]])
+  print(a)

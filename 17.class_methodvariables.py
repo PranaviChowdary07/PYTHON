@@ -1,3 +1,4 @@
+
                     # Type of Variables in Class
 """ 
  Class Variables are two types :-
