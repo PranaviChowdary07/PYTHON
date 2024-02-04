@@ -16,7 +16,6 @@ Two types:
 2.userdefined Ds :
    1.Arrays
        -one dimensional
-       -two     "
        -multi   "
     2.Stack
     3.Queue
@@ -37,3 +36,8 @@ Two types:
 
 
 *Time Complexity & Space Complexity*
+
+
+    * Arrays *
+Def :- Arrays in Py are DS that can hold multiple values of the same type.
+* It is linear datastructure
