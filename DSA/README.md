@@ -7,16 +7,16 @@ Two types:
   1.Bulit in Ds
   2.userdefined Ds
 
--1.Bulit Ds :
-   -List(Mutable)
-   -Dictionary(Mutable)
-   -Tuple(Unmutable)
-   -Set(Mutable)
+1.Bulit Ds :
+   * List(Mutable)
+   * Dictionary(Mutable)
+   * Tuple(Unmutable)
+   * Set(Mutable)
 
--2.userdefined Ds :
+2.userdefined Ds :
    1.Arrays
-       -one dimensional
-       -multi   "
+     *one dimensional
+     * multi   "
    2.Stack
    3.Queue
    4.Trees
