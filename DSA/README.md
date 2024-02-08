@@ -89,6 +89,7 @@ print("\nOriginal array:", arr_1d)
 print("After dividing each element by 2:", arr_divide)
 
 *Output*
+
 1D Array:
 [1 2 3 4 5]
 
