@@ -37,8 +37,7 @@ Two types:
 
 *Time Complexity & Space Complexity*
 
-
-    * Arrays *
+# *Arrays *
 Def :- Arrays in Py are DS that can hold multiple values of the same type.
 * It is linear datastructure
 * Array supports one dimension array
@@ -116,3 +115,5 @@ Original array: [1 2 3 4 5]
 After dividing each element by 2: [0.5 1.  1.5 2.  2.5]
 
 
+# Stacks
+  - It is a linear data structure.
