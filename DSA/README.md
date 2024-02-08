@@ -14,25 +14,25 @@ Two types:
    * Set(Mutable)
 
 2.userdefined Ds :
-   1.Arrays
-     *one dimensional
-     * multi   "
-   2.Stack
-   3.Queue
-   4.Trees
-   5.Linked List:
-        -single
-        -double
-        -circular
-   6.Graphs
-   7.HashMaps
++ Arrays
+  * one dimensional
+  * multi   "
++ Stack
++ Queue
++ Trees
++ Linked List:
+    * single
+    * double
+    * circular
++ Graphs
++ HashMaps
 
 # Searching & Sorting Techiniques
- -Bubble sort*
- -Merge sort*
- -Selection sort*
- -Shell sort*
- -Insertion sort*
+ * Bubble sort*
+ * Merge sort*
+ * Selection sort*
+ - Shell sort*
+ - Insertion sort*
 
 
 *Time Complexity & Space Complexity*
@@ -88,8 +88,7 @@ print("\nOriginal array:", arr_1d)
 print("After dividing each element by 2:", arr_divide)
 
 *Output*
-
-1D Array:
+```1D Array:
 [1 2 3 4 5]
 
 2D Array:
@@ -112,7 +111,7 @@ Original array: [1 2 3 4 5]
 After multiplying each element by 2: [ 2  4  6  8 10]
 
 Original array: [1 2 3 4 5]
-After dividing each element by 2: [0.5 1.  1.5 2.  2.5]
+After dividing each element by 2: [0.5 1.  1.5 2.  2.5]```
 
 
 # Stacks
