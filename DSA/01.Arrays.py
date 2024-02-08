@@ -48,4 +48,9 @@ arr_multiply = arr_1d * 2
 print("\nOriginal array:", arr_1d)
 print("After multiplying each element by 2:", arr_multiply)
 
+# Element-wise division
+arr_divide = arr_1d / 2
+print("\nOriginal array:", arr_1d)
+print("After dividing each element by 2:", arr_divide)
+
 
