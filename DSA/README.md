@@ -28,11 +28,11 @@ Two types:
 + HashMaps
 
 ### Searching & Sorting Techiniques
- * Bubble sort*
- * Merge sort*
- * Selection sort*
- * Shell sort*
- * Insertion sort*
+ * Bubble sort
+ * Merge sort
+ * Selection sort
+ * Shell sort
+ * Insertion sort
 
 
 *Time Complexity & Space Complexity*
@@ -80,11 +80,12 @@ print("After multiplying each element by 2:", arr_multiply)
 arr_divide = arr_1d / 2
 print("\nOriginal array:", arr_1d)
 print("After dividing each element by 2:", arr_divide)
-<!-- 
+
 ## Output
 
 1D Array:
 [1 2 3 4 5]
+
 2D Array:
 [[1 2 3]
  [4 5 6]
@@ -100,22 +101,22 @@ After adding 10 to each element: [11 12 13 14 15]
 Original array: [1 2 3 4 5]
 After multiplying each element by 2: [ 2  4  6  8 10]
 Original array: [1 2 3 4 5]
-After dividing each element by 2: [0.5 1.  1.5 2.  2.5] -->
+After dividing each element by 2: [0.5 1.  1.5 2.  2.5]
 
 # STACKS
  - It is a linear data structure
  - It follows LIFO(Last In First Out).
  - New element is added at one-end & remove at that(same) only.
- - Insert element is called "Push".
- - Delete element is called "Pop".
- - Time Complexity "O(1)"
+ - Insert element is called **"Push"**.
+ - Delete element is called **"Pop"**.
+ - Time Complexity **"O(1)"**.
 
 # QUEUE
   - Queue is linear data structure
   * It follows FIFO(First In First Out).
-  - Insertion of element is called "Rear"(Enqueue).
-  * Deletion of element is called "Front"(Dequeue).
-  - Time Complexity "O(1)".
+  - Insertion of element is called **"Rear"**(Enqueue).
+  * Deletion of element is called **"Front"**(Dequeue).
+  - Time Complexity **"O(1)"**.
   * Ex:  Insert-->2|3|4|5 --->delete 5|4|3|2
 
 
