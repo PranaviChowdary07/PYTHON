@@ -135,7 +135,7 @@ After dividing each element by 2: [0.5 1.  1.5 2.  2.5]
      Box 2: [2] -> Box 3
      Box 3: [3] -> None
 OR  head --> [1] --> [2] --> [3] --> None
-**2.Double LinkedList**   
+- **2.Double LinkedList**   
 * A doubly linked list or a two-way linked list is a more complex type of linked list that contains a pointer to the next as well as the previous node in sequence.
 * It contains node has 2 address & 1 data.
 * it contains three parts of data, a pointer to the next node, and a pointer to the previous node. This would enable us to traverse the list in the backward direction as well.
