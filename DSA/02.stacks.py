@@ -10,7 +10,7 @@ class Stack(object):
     def push(self,data):
         self.stack.insert(self.numofitems,data)
         self.numofitems +=1  # increment index
-        return'{} pushed to stack' .format(data)
+        return'{} pushed to stack'.format(data) 
     # deleting the element
     def pop(self):
         self.numofitems -=1

@@ -49,7 +49,7 @@ Def :- Arrays in Py are DS that can hold multiple values of the same type.
   a = np.array([[2,4,5,6],[4,7,45,24],[4,12,14,7,11,23]])
   print(a)
 
-* Example program
+**Example program**
 import numpy as np
 
 ### Creating a 1D array
@@ -122,6 +122,24 @@ After dividing each element by 2: [0.5 1.  1.5 2.  2.5]
   * Deletion of element is called **"Front"**(Dequeue).
   - Time Complexity **"O(1)"**.
   * Ex:  Insert-->2|3|4|5 --->delete 5|4|3|2
+
+# LINKED LIST
+   * a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list. 
+   * It contains nodes,it has data & address ,first node called **"Head"** & end node called **"Tail"**.
+- ## Types:
+  - **1.Sinlge LinkedList**
+         - It end node adress will be empty(null).
+         -  A single linked list allows the traversal of data only in one way. 
+         - Time Complexity **O(N)**
+           - Ex:Box 1: [1] -> Box 2
+                Box 2: [2] -> Box 3
+                Box 3: [3] -> None
+            OR  head --> [1] --> [2] --> [3] --> None
+  - **2.Double LinkedList**   --> It contains node has 2 address & 1 data
+  - 3.Circular LinkedList --> It contains node has 2 adresss & 1 data ,in last node address belong to 1st node address
+
+      
+
 
 
 
