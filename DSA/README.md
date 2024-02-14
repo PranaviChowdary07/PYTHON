@@ -139,7 +139,5 @@ OR  head --> [1] --> [2] --> [3] --> None
 * A doubly linked list or a two-way linked list is a more complex type of linked list that contains a pointer to the next as well as the previous node in sequence.
 * It contains node has 2 address & 1 data.
 * it contains three parts of data, a pointer to the next node, and a pointer to the previous node. This would enable us to traverse the list in the backward direction as well.
-  - Ex: Forward[1] <-> [2] <-> [3]
-              Backward:[3] <-> [2] <-> [1]*
 ## **3.Circular LinkedList**
 * It contains node has 2 adresss & 1 data ,in last node address belong to 1st address node.
