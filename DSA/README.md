@@ -141,3 +141,49 @@ OR  head --> [1] --> [2] --> [3] --> None
 * it contains three parts of data, a pointer to the next node, and a pointer to the previous node. This would enable us to traverse the list in the backward direction as well.
 ## **3.Circular LinkedList**
 * It contains node has 2 adresss & 1 data ,in last node address belong to 1st address node.
+
+# TREES
+* Tree is non-linear data structure.
+* It contains nodes,node to node connection called **"Edges"**.
+* **Root:** the top (initial) node of the tree,where the all operation start.
+* **Node:** Each item in the tree .(keyvalue)
+* **Edge:** A tree has __n-1__ edges(n is no.of nodes).
+* __Parent:__ A node has precedary(main) of any node.
+* __Child:__ A node has descendent(sub-nodes) of any node.
+* __Sibilings:__ A group of nodes which have same parent.
+* __Leafnode:__ A node without children.
+* **Level:** It is defined as __1+__ the no.of edges b/w the node & the root.
+* **Height:** The no.of edges from the furthest leaf.(up to down like root to leafnode)
+* **Depth:** The no.of edges from te node to the __tree root__.(leaft node to root)
+* **Sub-tree:** A portion of a tree data structure that can be viewed as a complete tree in itself.
+### Types:
++ Binary Tree
++ BInary search Tree
++ Red-Black Tree
++ AVL Tree
++ Heap Tree
+   * The deciding factor of which tree type to use is performance.Performance is measured in terms of __inserting & retrieving data__.
+
+# GRAPHS
+* Graph is non-linear data structure
+* **Def:** A graph is common DS that consists of finite set of __nodes__(or verices) & set of edges connecting them.
+  + Like a pair (x,y) is referred to as an edge,which communicates that the X vertex connects to Y vertex.
+**Types**
+**Undirected Graph**
+  + Nodes are connected by edges that all are __biderectional__.
+  + Also called **"Bidirectional"**,comes return .
+    * Ex: If an edge connects **1 & 2** ,we can traverse from node **1 to 2** & form node **2 to 1**.
+**Directed Graph**
+  + Nodes are connected by **directed edges** --that only go in __one direction__.
+    * Ex: If an edges connects __1 & 2__,but the arroe headpoints towards **2**,we can travere from node **1 to 2**,not in **2 to 1** opposite direction. 
+### Types of Graph Representation
+***Adjancency List***
++ To create an adjancency list,an array of list is used.The size of the array is equal to no.of nodes.
++ A single index,array[i] represents the lit of nodes adjacent to the **ith**node.
+ * 0 -->1 --> 2 --> 3
+ * 1 --> 2 --> 0
+ * 2 --> 0 --> 1
+ * 3 --> 0
+
+.
+ 
