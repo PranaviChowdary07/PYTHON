@@ -26,7 +26,7 @@ if __name__ == '__main__':
     print(s.push(2))
     print(s.push(3))
     print(s.push(4))
-    print(s.push(6))
+    print(s.push(16))
     print(s.push(12))
     print(s.pop())
     print(s.pop())
