@@ -12,7 +12,7 @@ a.pop()   # It removes last element in list, but particular elemnt we use index 
 print(a)
 
 # defining multi dimensional array : In this give same length for lists
-multi = np.array([[4,5,6,7,],[3,2,5,6]])
+multi = np.array([[4,5,6,7,5,12],[3,2,5,6,14,23]])
 print(multi)
 print('')
 
