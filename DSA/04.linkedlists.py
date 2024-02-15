@@ -54,4 +54,8 @@ print("Size:"+ str(obj.get_size()))
 obj.remove(8)
 print("Size:"+str(obj.get_size()))
 
+"""
+output:
+Size:3  """
+
         
