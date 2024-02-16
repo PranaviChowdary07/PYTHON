@@ -169,11 +169,11 @@ OR  head --> [1] --> [2] --> [3] --> None
 * **Def:** A graph is common DS that consists of finite set of __nodes__(or verices) & set of edges connecting them.
   + Like a pair (x,y) is referred to as an edge,which communicates that the X vertex connects to Y vertex.
 **Types**
-**Undirected Graph**
+#### **Undirected Graph**
   + Nodes are connected by edges that all are __biderectional__.
   + Also called **"Bidirectional"**,comes return .
     * Ex: If an edge connects **1 & 2** ,we can traverse from node **1 to 2** & form node **2 to 1**.
-**Directed Graph**
+### **Directed Graph**
   + Nodes are connected by **directed edges** --that only go in __one direction__.
     * Ex: If an edges connects __1 & 2__,but the arroe headpoints towards **2**,we can travere from node **1 to 2**,not in **2 to 1** opposite direction. 
 ### Types of Graph Representation
@@ -188,23 +188,22 @@ OR  head --> [1] --> [2] --> [3] --> None
  # SORTING
  + Elements set either asceding/descending is called **"Sorting"**.
  + Sorting in data structure is the process of arranging different elements in a particular order based on a particular set of criteria.
-  * Ex: given elements are **1,4,2,7,5,3,9**  
+  * Ex: Given elements are **1,4,2,7,5,3,9**  
       * After sorting:  -->**1,2,3,4,5,7,9**
 ### Types:
 + Insertion sort
 + Selection sort
- 
-   
 + Bubble sort
 + Merge sort
 + Quick sort
 + Shell sort
     ### *Selection Sort:*
+* __Def:__Selection sort is a simple sorting algorithm that iterates through the input array repeatedly, selecting the minimum (or maximum) element from the unsorted portion and placing it at the beginning of the sorted portion. This process continues until the entire array is sorted.**(minimum to maximum)**
 * given array : [5,2,9,1,6]
   * First, we find the smallest element in the array, which is 1, and swap it with the element at the first position. Our array becomes [1, 2, 9, 5, 6].
   * Next, we move to the second position in the array (2). Since 2 is already in the correct position, we leave it there.
   * Now, we find the smallest element in the unsorted portion (5, 9, 6), which is 5, and swap it with the element at the third position. Our array becomes [1, 2, 5, 9, 6].
-  *  we find smallest in(9,6) which is 6.& swap it.
-  * Ater final iteration the sort array becomes **[1,2,5,6,9]**
+  * We find smallest in(9,6) which is 6.& swap it.
+  * After final iteration the sort array becomes **[1,2,5,6,9]**
 .
  
