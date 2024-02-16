@@ -86,6 +86,10 @@ if __name__ == '__main__':
     g.addEdge('D','C',2)
     g.addEdge('F','B',8)
 
+    for edgeSet in g.getEdges():
+        print('Edges from',edgeSet[0][0] + ': ',end ="")
+        print(edgeSet)
+
 
 
 
