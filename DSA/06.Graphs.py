@@ -91,6 +91,17 @@ if __name__ == '__main__':
         print(edgeSet)
 
 
+""" 
+Output:
+Edges from A: [('A', 'B', 4), ('A', 'D', 1), ('A', 'E', 3)]
+Edges from B: [('B', 'A', 4), ('B', 'C', 5), ('B', 'D', 7), ('B', 'F', 8)]
+Edges from C: [('C', 'B', 5), ('C', 'D', 2), ('C', 'F', 4)]
+Edges from D: [('D', 'C', 2), ('D', 'E', 6), ('D', 'A', 1), ('D', 'B', 7)]
+Edges from E: [('E', 'D', 6), ('E', 'A', 3)]
+Edges from F: [('F', 'C', 4), ('F', 'B', 8)]
+ """
+
+
 
 
                 
