@@ -185,5 +185,11 @@ OR  head --> [1] --> [2] --> [3] --> None
  * 2 --> 0 --> 1
  * 3 --> 0
 
+ # SORTING
+ + Elements set either asceding/descending is called **"Sorting"**.
+ + Sorting in data structure is the process of arranging different elements in a particular order based on a particular set of criteria.
+  * Ex: given elements are **1,4,2,7,5,3,9**  
+      * After sorting:  -->**1,2,3,4,5,7,9**
+
 .
  
