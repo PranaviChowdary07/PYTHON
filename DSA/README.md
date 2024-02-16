@@ -199,6 +199,12 @@ OR  head --> [1] --> [2] --> [3] --> None
 + Shell sort
     ### *Selection Sort:*
 * __Def:__Selection sort is a simple sorting algorithm that iterates through the input array repeatedly, selecting the minimum (or maximum) element from the unsorted portion and placing it at the beginning of the sorted portion. This process continues until the entire array is sorted.**(minimum to maximum)**
+
+* *The algorithms maintains two subarrays in a given array*
+   * 1.The subarray which i already sorted.
+   * 2.Remaining subarray which is unsorted
+* **Time Complexity:"O(n2)"**
+      ### *Example*
 * given array : [5,2,9,1,6]
   * First, we find the smallest element in the array, which is 1, and swap it with the element at the first position. Our array becomes [1, 2, 9, 5, 6].
   * Next, we move to the second position in the array (2). Since 2 is already in the correct position, we leave it there.
