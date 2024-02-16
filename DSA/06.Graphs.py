@@ -66,6 +66,27 @@ class Graph:
             if len(edgesFromVertex)!= 0:
                 edges.append(edgesFromVertex)
         return edges
+    
+if __name__ == '__main__':
+    g = Graph(directed=False)
+    g.addVertex('A')
+    g.addVertex('B')
+    g.addVertex('C')
+    g.addVertex('D')
+    g.addVertex('E')
+    g.addVertex('F')
+    g.addEdge('A','B',4)
+    g.addEdge('B','C',5)
+    g.addEdge('C','D',3)
+    g.addEdge('D','E',6)
+    g.addEdge('D','A',1)
+    g.addEdge('E','A',3)
+    g.addEdge('F','C',4)
+    g.addEdge('D','B',7)
+    g.addEdge('D','C',2)
+    g.addEdge('F','B',8)
+
+
 
 
                 
