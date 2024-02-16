@@ -190,6 +190,19 @@ OR  head --> [1] --> [2] --> [3] --> None
  + Sorting in data structure is the process of arranging different elements in a particular order based on a particular set of criteria.
   * Ex: given elements are **1,4,2,7,5,3,9**  
       * After sorting:  -->**1,2,3,4,5,7,9**
-
+### Types:
++ Insertion sort
++ Selection sort
+ * given array : [5,2,9,1,6]
+  * First, we find the smallest element in the array, which is 1, and swap it with the element at the first position. Our array becomes [1, 2, 9, 5, 6].
+  * Next, we move to the second position in the array (2). Since 2 is already in the correct position, we leave it there.
+  * Now, we find the smallest element in the unsorted portion (5, 9, 6), which is 5, and swap it with the element at the third position. Our array becomes [1, 2, 5, 9, 6].
+  *  we find smallest in(9,6) which is 6.& swap it.
+  * Ater final iteration the sort array becomes **[1,2,5,6,9]**
+   
++ Bubble sort
++ Merge sort
++ Quick sort
++ Shell sort
 .
  
