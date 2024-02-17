@@ -244,9 +244,9 @@ OR  head --> [1] --> [2] --> [3] --> None
      + [8,5,2,6,12]  --> 8>5 it swap then 
      + [5,8,2,6,12]  --> 8>2 it swap
      + [5,2,8,6,12]  --> 8>6 it swap
-     + [5,2,6,8,12]  --> 8<12 no swap then go to first element
+     + [5,2,6,8,12]  --> 8<12 no  need to swap then go to first element
      + [5,2,6,8,12]  --> 5>2 it swap
      + [2,5,6,8,12]  -->no swap
-       + **[2,5,6,8,12]** finally sotred list.
+       + **[2,5,6,8,12]** finally sorted list.
 .
  
