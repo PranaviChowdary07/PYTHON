@@ -211,5 +211,42 @@ OR  head --> [1] --> [2] --> [3] --> None
   * Now, we find the smallest element in the unsorted portion (5, 9, 6), which is 5, and swap it with the element at the third position. Our array becomes [1, 2, 5, 9, 6].
   * We find smallest in(9,6) which is 6.& swap it.
   * After final iteration the sort array becomes **[1,2,5,6,9]**
+
+      ### *Insertion Sort*
+* The insertion sort is a straightforward & more efficient algorithm.
+  * ***Concept of Insertion Sort***
+    + THe array contains virtually in the two parts in Insertion Sort: __Unsortedpart__ & __Sorted part__.
+    + The sorted part contains the first element of array & other unsorted subpart contains the rest of the array.
+    + The first element in unsorted array is compared to sorted array.
+    + Then we can place it into a proper sub-array
+    + Time Complexity :**O(n2)**
+       * ex: 23,45,12,22,2 -->given elements
+          * 23-45,12,22,2 -->23 sorted , other elements are unsorted
+          * 23,45-12,22,2 -->23,45 sorted
+          * 12,23,45-22,2 --->12,23,45 sorted
+          * 12,22,23,45-2 -->12,22,23,45 sorted
+          * 2,12,22,23,45 --> All elements are sorted.
+
+    ### ***MERGE SORT***
++ It follows __divide & conquer__ method.
++ One of the most popular & efficient sorting algorithm.
++ It divides the given list into 2 halves(parts),call itself for the two halves and then merges the two sorted halves.
++ We define **merge()** function  used to merging two halves.
++ The sublists are divided again & again untill we get only element.
++ Then we combine 1 element into 2 elements,them 2 into 4 sorting in process,untill we get sorted list.
++ Merge sort can be implement using 2 wats: **top-down approach** &  **bottom-up approach**.
+
+    ### **BUBBLE SORT**
++ Time complexity:**O(n)**
++ The bubble sort uses straight forward logic,that works by repeating swapping the adjacent elements if they are not in right order.
++ It compares one pir at a time & swaps the first element is > the second element,otherwise move further to the next pair of elements to comparision
+  * Ex: Given List **[8,5,2,6,12]
+     + [8,5,2,6,12]  --> 8>5 it swap then 
+     + [5,8,2,6,12]  --> 8>2 it swap
+     + [5,2,8,6,12]  --> 8>6 it swap
+     + [5,2,6,8,12]  --> 8<12 no swap then go to first element
+     + [5,2,6,8,12]  --> 5>2 it swap
+     + [2,5,6,8,12]  -->no swap
+       + **[2,5,6,8,12]** finally sotred list.
 .
  
