@@ -57,6 +57,7 @@ print("Size:"+str(obj.get_size()))
 
 """
 output:
-Size:3  """
+Size:5
+Size:4 """
 
         

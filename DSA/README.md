@@ -158,7 +158,7 @@ OR  head --> [1] --> [2] --> [3] --> None
 * **Sub-tree:** A portion of a tree data structure that can be viewed as a complete tree in itself.
 ### Types:
 + Binary Tree
-+ BInary search Tree
++ Binary search Tree
 + Red-Black Tree
 + AVL Tree
 + Heap Tree
@@ -166,7 +166,7 @@ OR  head --> [1] --> [2] --> [3] --> None
 
 # GRAPHS
 * Graph is non-linear data structure
-* **Def:** A graph is common DS that consists of finite set of __nodes__(or verices) & set of edges connecting them.
+* **Def:** A graph is common DS that consists of finite set of __nodes__(or vertices) & set of edges connecting them.
   + Like a pair (x,y) is referred to as an edge,which communicates that the X vertex connects to Y vertex.
 **Types**
 #### **Undirected Graph**
