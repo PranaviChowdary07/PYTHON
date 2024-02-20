@@ -212,7 +212,7 @@ OR  head --> [1] --> [2] --> [3] --> None
   * We find smallest in(9,6) which is 6.& swap it.
   * After final iteration the sort array becomes **[1,2,5,6,9]**
 
-      ### *Insertion Sort*
+      ### *INSERTION SORT*
 * The insertion sort is a straightforward & more efficient algorithm.
   * ***Concept of Insertion Sort***
     + THe array contains virtually in the two parts in Insertion Sort: __Unsortedpart__ & __Sorted part__.
@@ -236,7 +236,7 @@ OR  head --> [1] --> [2] --> [3] --> None
 + Then we combine 1 element into 2 elements,them 2 into 4 sorting in process,untill we get sorted list.
 + Merge sort can be implement using 2 wats: **top-down approach** &  **bottom-up approach**.
 
-    ### **BUBBLE SORT**
+    ### *BUBBLE SORT*
 + Time complexity:**O(n)**
 + The bubble sort uses straight forward logic,that works by repeating swapping the adjacent elements if they are not in right order.
 + It compares one pir at a time & swaps the first element is > the second element,otherwise move further to the next pair of elements to comparision
