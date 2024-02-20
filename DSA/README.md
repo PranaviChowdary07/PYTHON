@@ -38,7 +38,7 @@ Two types:
 *Time Complexity & Space Complexity*
 
 # *ARRAYS *
-Def :- Arrays in Py are DS that can hold multiple values of the same type.
+**Def :-** Arrays in Py are DS that can hold multiple values of the same type.
 * It is linear datastructure
 * Array supports one dimension array
  Ex: import array  as arr
