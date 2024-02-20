@@ -197,7 +197,7 @@ OR  head --> [1] --> [2] --> [3] --> None
 + Merge sort
 + Quick sort
 + Shell sort
-    ### *Selection Sort:*
+    ### *SELECTION SORT:*
 * __Def:__Selection sort is a simple sorting algorithm that iterates through the input array repeatedly, selecting the minimum (or maximum) element from the unsorted portion and placing it at the beginning of the sorted portion. This process continues until the entire array is sorted.**(minimum to maximum)**
 
 * *The algorithms maintains two subarrays in a given array*
