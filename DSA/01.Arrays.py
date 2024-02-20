@@ -53,4 +53,37 @@ arr_divide = arr_1d / 2
 print("\nOriginal array:", arr_1d)
 print("After dividing each element by 2:", arr_divide)
 
+"""
+Output:
+array('d', [2.0, 4.6, 6.4, 5.5, 3.5, 2.2])
+[[ 4  5  6  7  5 12] 
+ [ 3  2  5  6 14 23]] """
 
+"""
+Ouput :    
+1D Array:  
+[1 2 3 4 5]
+
+2D Array:  
+[[1 2 3]   
+ [4 5 6]
+ [7 8 9]]
+
+Accessing elements:
+Element at row 1, column 2: 2
+
+Slicing arrays:
+First row: [1 2 3]
+First column: [1 4 7]
+
+Operations on arrays:
+Original array: [1 2 3 4 5]
+After adding 10 to each element: [11 12 13 14 15]
+
+Original array: [1 2 3 4 5]
+After multiplying each element by 2: [ 2  4  6  8 10]
+
+Original array: [1 2 3 4 5]
+After dividing each element by 2: [0.5 1.  1.5 2.  2.5]
+
+ """

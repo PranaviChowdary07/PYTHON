@@ -204,7 +204,7 @@ OR  head --> [1] --> [2] --> [3] --> None
    * 1.The subarray which i already sorted.
    * 2.Remaining subarray which is unsorted
 * **Time Complexity:"O(n2)"**
-      ### *Example*
+  ### *Example*
 * given array : [5,2,9,1,6]
   * First, we find the smallest element in the array, which is 1, and swap it with the element at the first position. Our array becomes [1, 2, 9, 5, 6].
   * Next, we move to the second position in the array (2). Since 2 is already in the correct position, we leave it there.
