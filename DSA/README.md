@@ -1,4 +1,4 @@
-                Data Structure  & Algorithims
+                      Data Structure  & Algorithims
 
 + Data Structure :- To store data in structure(organise)
 + Algorithim :- Step-by-step process
