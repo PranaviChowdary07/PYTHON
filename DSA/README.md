@@ -16,7 +16,7 @@ Two types:
 ### 2.userdefined Ds :
 + Arrays
   * one dimensional
-  * multi     " "
+  * multi       " "
 + Stack
 + Queue
 + Trees
@@ -51,16 +51,15 @@ Two types:
 
 ### **Example program**
 import numpy as np
-
- ***Creating a 1D array***
+### Creating a 1D array
 arr_1d = np.array([1, 2, 3, 4, 5])
 print("1D Array:")
 print(arr_1d)
- ***Creating a 2D array***
+### Creating a 2D array
 arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print("\n2D Array:")
 print(arr_2d)
- ***Accessing elements in an array***
+### Accessing elements in an array
 print("\nAccessing elements:")
 print("Element at row 1, column 2:", arr_2d[0, 1])
 ### Slicing arrays
