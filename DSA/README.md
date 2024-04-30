@@ -63,20 +63,20 @@ print(arr_2d)
  ***Accessing elements in an array***
 print("\nAccessing elements:")
 print("Element at row 1, column 2:", arr_2d[0, 1])
- ***Slicing arrays***
+### Slicing arrays
 print("\nSlicing arrays:")
 print("First row:", arr_2d[0, :])
 print("First column:", arr_2d[:, 0])
- ***Operations on arrays ***
+### Operations on arrays
 print("\nOperations on arrays:")
 arr_add = arr_1d + 10
 print("Original array:", arr_1d)
 print("After adding 10 to each element:", arr_add)
- ***Element-wise multiplication***
+### Element-wise multiplication
 arr_multiply = arr_1d * 2
 print("\nOriginal array:", arr_1d)
 print("After multiplying each element by 2:", arr_multiply)
- ***Element-wise division***
+### Element-wise division
 arr_divide = arr_1d / 2
 print("\nOriginal array:", arr_1d)
 print("After dividing each element by 2:", arr_divide)
